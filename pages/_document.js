@@ -36,12 +36,7 @@ export default class MyDocument extends Document {
 
           <link href="/static/css/sb-admin-2.min.css" rel="stylesheet" />
         </Head>
-        <body
-          className="vertical-layout vertical-menu 2-columns menu-expanded fixed-navbar"
-          data-col="2-columns"
-          data-open="click"
-          data-menu="vertical-menu"
-        >
+        <body id="page-top">
           <Main {...rootProps} />
           <NextScript />
 
